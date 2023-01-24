@@ -117,7 +117,7 @@ class ConnectionManager
 
 updateRoom() {
    const inputUserName = document.getElementById("inputUsername");
-   let potato;
+  
    inputUserName.addEventListener("change", (e) => {
     window.location.hash = inputUserName.value;
              document.getElementById("room-id").innerText = inputUserName.value;
